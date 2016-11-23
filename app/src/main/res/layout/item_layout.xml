@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:gravity="left"
+        android:text="Just for the weekend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_height="340dp"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
